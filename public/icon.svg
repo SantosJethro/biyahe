@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Biyahe">
+  <rect width="512" height="512" rx="96" fill="#0b5d3b"/>
+  <!-- road -->
+  <path d="M176 432 L232 128 h48 l56 304 z" fill="#123a2a"/>
+  <path d="M212 432 L248 176 h16 l36 256 z" fill="#0b5d3b"/>
+  <!-- lane dashes -->
+  <g fill="#ffd23f">
+    <rect x="250" y="176" width="12" height="34" rx="6"/>
+    <rect x="248" y="234" width="16" height="38" rx="8"/>
+    <rect x="245" y="298" width="22" height="44" rx="10"/>
+    <rect x="241" y="366" width="30" height="50" rx="12"/>
+  </g>
+  <!-- peso mark -->
+  <text x="256" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="120" font-weight="700"
+        text-anchor="middle" fill="#ffd23f">₱</text>
+</svg>
