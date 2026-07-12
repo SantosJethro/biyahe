@@ -2,7 +2,6 @@
   "name": "biyahe-toll-tracker",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "description": "PWA to estimate Philippine expressway & skyway toll costs, with an admin-only crawler that refreshes prices from official operator sources.",
   "scripts": {
     "dev": "vite",

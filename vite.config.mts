@@ -13,7 +13,7 @@ import path from 'node:path'
  * serverless functions; this plugin only affects local development.
  */
 const localServerlessApi = (): Plugin => {
-  const apiDir = path.resolve(__dirname, 'api')
+  const apiDir = path.resolve(process.cwd(), 'api')
 
   const resolveHandlerFile = (pathname: string): string | null => {
     // "/api/admin/crawl" -> "api/admin/crawl.ts" (or ".../index.ts")
